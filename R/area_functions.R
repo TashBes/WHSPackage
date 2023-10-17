@@ -34,4 +34,5 @@ area <- function(data, col, name){
                columns = c(area, percent))
 }
 
-
+library(roxygen2) # Read in the roxygen2 R package
+roxygenise()      # Builds the help files

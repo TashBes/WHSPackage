@@ -92,4 +92,5 @@ map <- function(data, col, name) {  #this tells you the things in the function t
 # draw_plot(map) +
 # draw_plot(map2, x = 0.75, y = 0.66, width = 0.2, height = 0.25)
 #map_insert
-
+library(roxygen2) # Read in the roxygen2 R package
+roxygenise()      # Builds the help files
